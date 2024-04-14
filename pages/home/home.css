@@ -1,0 +1,481 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    /* overflow-x: hidden; */
+}
+.header{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+.nomeDaMarca{
+    width: 100%;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.DigitalHaven{
+    cursor: pointer;
+    height: 40px;
+}
+
+.carrinho{
+    width: 30px;
+}
+
+
+.foto_pricipal{
+    width: 100%;
+    position: relative;
+}
+
+.desconto{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px; 
+    font-size: 130px;
+    color: #86bd00;
+}
+
+.foto_pricipal img{
+    width: 100%;
+}
+
+
+
+/* imagens */
+.card img{
+    display: flex;
+    flex-direction: column;
+    width: 100%!important;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.product p{
+    font-size: 1.6rem;
+    font-weight: 100;
+
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+
+button{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    right: 0;
+    margin-right: 8px!important;
+    margin-bottom: 8px!important;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid white;
+
+}
+
+/* footer */
+
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card-footer div {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.6rem;
+  }
+  
+  .card-footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background: #000;
+  }
+  
+  .card-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-footer a img {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  #footer {
+    padding: 6.2rem 7.2rem;
+    width: 100%;
+    background: #0001;
+  
+    gap: 6.2rem;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  .footer-rows {
+    display: flex;
+    justify-content: space-between;
+  
+    gap: 3rem;
+  
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .footer-rows ul {
+    list-style: none;
+    font-weight: 400;
+  }
+  
+  .footer-rows li {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+  
+    transition: all 0.2s;
+  }
+  
+  .footer-rows h6 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.95rem;
+  
+    margin-bottom: 0.8rem;
+  }
+  
+  .links-section {
+    display: flex;
+    justify-content: space-between;
+  
+    gap: 2.5rem;
+    width: 49%;
+  
+    min-width: 54rem;
+  }
+  
+  .links-collun {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-rows li:hover {
+    cursor: pointer;
+    color: #713c27;
+    transform: scale(1.04);
+  }
+  
+  .networks-section {
+    width: 43%;
+    min-width: 41.5rem;
+  }
+  
+  .network-content {
+    display: flex;
+    justify-content: space-between;
+  
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .network-content div div {
+    display: flex;
+    gap: 1.65rem;
+    margin-top: 0.6rem;
+  }
+  
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 4rem;
+  }
+  
+  .sign-up a {
+    text-decoration: none;
+    color: #6b7280;
+  }
+  
+  .sign-up small {
+    margin-top: 1.8rem;
+  
+    color: #6b7280;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 0.975rem;
+  }
+  
+  .input-email {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-email input {
+    width: 69%;
+    padding: 13px 16px 13px 16px;
+    border: 1px solid #9ca3af;
+    gap: 10px;
+  }
+  
+  .input-email button {
+    text-transform: uppercase;
+    color: #fff;
+    width: 29%;
+  
+    background: #1f2937;
+  
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input-email button:hover {
+    opacity: 0.8;
+  }
+  
+  .rights {
+    width: 54%;
+  }
+  
+  .rights p {
+    margin-bottom: 2.4rem;
+  
+    color: #6b7280;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.95rem;
+  }
+  
+  .rights ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem 1.6rem;
+  }
+  
+  .rights ul li {
+    color: #6b7280;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.95rem;
+  }
+  
+  .flags {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+  }
+  
+  .flags div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  
+    margin-top: 0.8rem;
+  }
+  
+  @media (max-width: 1143px) {
+    .footer-rows {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer-rows section {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    html {
+      font-size: 8px;
+    }
+  
+    .card-footer {
+      align-items: baseline;
+    }
+  
+    .card-footer div {
+      gap: 1rem;
+    }
+  
+    .card-footer button {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .card-footer div {
+      font-size: 11px;
+      gap: 0.8rem;
+    }
+  
+    .card-footer button {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .card-footer button img {
+      width: 12px;
+      height: 12px;
+    }
+  
+    .links-section {
+      flex-wrap: wrap;
+      gap: 5rem;
+      min-width: auto;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .links-section {
+      flex-wrap: wrap;
+      gap: 5rem;
+      text-align: center;
+    }
+  
+    .links-collun {
+      margin: auto;
+    }
+  
+    .networks-section {
+      min-width: auto;
+    }
+  
+    .input-email {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  
+    .input-email input {
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+    }
+  
+    .input-email button {
+      font-size: 10px;
+      min-width: 95px;
+      padding: 13px 10px 13px 10px;
+    }
+  }
+  
+  @media (min-width: 1800px) {
+    html {
+      font-size: 0.65vw;
+    }
+  }
+
+#subTitulo{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 1.5rem;
+    font-family: 'roboto';
+    color: #000010;
+}
+
+.swiper {
+    width: 100%;
+    margin-top: 5rem;
+    
+}
+.swiper-slide{
+    width: 300px!important;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.swiper-slide p{
+    font-size: 20px;
+    margin-block: 8px;
+    margin-left: 6px;
+}
+.swiper-slide span{
+    font-size: 16px;
+    margin-left: 6px;
+    font-weight: bold;
+    color: #374151;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .desconto{
+        font-size: 40px;
+    }
+    .carrinho{
+        width: 20px;
+    }
+    .DigitalHaven{
+        height: 30px;
+        
+    }
+    .swiper {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .swiper-slide{
+        width: 300px!important;
+        background-color: white;
+        border-radius: 8px;
+        border: 2px solid black;
+    
+    }
+    
+    .swiper-slide img {
+        height: 200px;
+    }
+
+}

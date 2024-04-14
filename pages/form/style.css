@@ -1,0 +1,156 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color: #d4dde3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 14px;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3rem;
+}
+
+.foto{
+    display: flex;
+}
+
+#image-inchurch{
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+
+#username{
+    width: 550px;
+}
+
+
+
+.form{
+    margin-top: 3rem;
+}
+
+.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf
+}
+
+
+.form button{
+    background-color: #86bd00!important;
+    color: #FFF;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+span{
+    color: #86bd00;
+}
+
+/* .nomeDaMarca{
+    width: 100%;
+    background-color:white;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    
+} */
+
+/* .bemvindo{
+    font-size: 60px;
+    font-weight: 800;
+}
+.DigitalHaven{
+    padding: 10px;
+    width: 500px;
+} */
+
+.error {
+    color: #ff3b25;
+    visibility: hidden;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    body{
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+        background-color: white;
+
+    }
+    .container {
+        padding: 0 10px;
+        display: flex;
+        width: 100%;
+        max-width: 430px;
+        justify-content: center;
+    }
+
+    /* .nomeDaMarca{
+        display: none;
+    } */
+
+    #image-inchurch{
+        width: 430px;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+    
+
+    .form-content input {
+        max-width: 100%;
+    }
+
+    .form button {
+        max-width: 100%;
+    }
+}
