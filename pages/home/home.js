@@ -70,7 +70,6 @@ function handleCreateCards(elementDiv, products) {
     cardSwiperSlideDiv.style.backgroundColor = "#ffffff"; // Adiciona o background branco
 
     // Adicionar evento de clique no card para redirecionar para a página products.html
-    cardSwiperSlideDiv.onclick = () => redirectToProductPage(product);
 
     if (product.images && product.images.length > 0) {
       const imageContainer = document.createElement("div");
@@ -91,6 +90,8 @@ function handleCreateCards(elementDiv, products) {
       button.classList.add("product-button"); // Adiciona classe para o estilo do botão
       button.onclick = () => handleSaveProduct(product); // Salvando o produto completo
       button.innerText = '+'
+      button.onclick = () => redirectToProductPage(product);
+
 
       // const imgButton = document.createElement("img");
       // imgButton.innerText = "+"; 
@@ -122,7 +123,8 @@ function handleCreateCards(elementDiv, products) {
 // Função para redirecionar para a página do produto
 function redirectToProductPage(product) {
   // Redirecionar para a página products.html passando o ID do produto como parâmetro na URL
-  window.location.href = `../product/product.html?id=${product.id}`;
+  // window.location.href = `../product/product.html?id=${product.id}`;
+  window.location.href = `../product/product.html?id=${product.id}`
 }
 // Função de limpeza de dados
 function handleCleaningProductCache() {
