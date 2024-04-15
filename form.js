@@ -11,7 +11,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
     if (username === usernameTrue && password === passwordTrue) {
         console.log("Login bem-sucedido. Redirecionando...");
-        window.location.href = '../home/home.html';
+        window.location.href = './pages/home/home.html';
     } else {
         console.log("Usuário ou senha incorretos.");
         erro("Usuário ou senha incorretos. Por favor, verifique e tente novamente.");
