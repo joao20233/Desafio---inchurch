@@ -70,7 +70,7 @@ function handleCreateCards(elementDiv, products) {
     cardSwiperSlideDiv.style.backgroundColor = "#ffffff"; // Adiciona o background branco
 
     // Adicionar evento de clique no card para redirecionar para a página products.html
-    cardSwiperSlideDiv.onclick = () => redirectToProductPage(product);
+    // cardSwiperSlideDiv.onclick = () => redirectToProductPage(product);
 
     if (product.images && product.images.length > 0) {
       const imageContainer = document.createElement("div");
