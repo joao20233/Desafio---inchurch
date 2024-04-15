@@ -1,133 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <link rel="stylesheet" href="./home.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="home2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <title>DevFashion</title>
 </head>
 <body>
-
-    <header class="header">
-        <div class="nomeDaMarca">
-            <img class="DigitalHaven" src="./img/digitalHaven-nome/logo.png" alt="">
-            <img class="carrinho" src="./img/digitalHaven-nome/Vector.svg" >
-        </div>
-    </header>
-
-    <main class="foto_pricipal">
-        <img src="./img/digitalHaven-nome/istockphoto-1311600080-1024x1024.jpg" alt="">
-        <div class="desconto">
-            ATÉ 80% OFF
-        </div>
-    </main>
-
+  <div class="container">
     
-    <!-- js construindo -->
-     <div class="swiper-container swiper">
-        <h2 id="subTitulo">PRODUTOS:</h2>
-        <div class="swiper-wrapper">
-                <div class="swipper">
-                    <div class="swiper-slide">
-                        <div class="card"> 
-                             <img class="image" src="" alt="">
-                        </div>
-                    </div>
-                </div>             
-        </div>
+    <!-- INICIO HEADER -->
+    <header id="header">
+      <div>
+        <img class="header-logo-icon" src="./img/digitalHaven-nome/favicon-32x32.png" alt="logo-img">
+        <img class="header-logo-text" src="./img/digitalHaven-nome/logo.png" alt="logo">
+      </div>
+
+      <div class="header-menu">
+        <a href="./pages/cart/cart.html">
+          <figure class="header-cart-icon">
+            <img src="./img/digitalHaven-nome/Vector.svg" alt="cart-img">
+          </figure>
+        </a>
         
-    </div>
+      </div>
+    </header>
+    <!-- FIM HEADER -->
 
+    <!-- INICIO HOME -->
+    <main id="home">
+      <div class="home-capa">
+        <img src="./img/digitalHaven-nome/istockphoto-1311600080-1024x1024.jpg" alt="capa-img">
+      </div>
+    </main>
+    <!-- FIM HOME -->
+
+    <!-- INICIO FOOTER -->
     <footer id="footer">
-        <div class="footer-rows">
-          <section class="links-section">
-            <div class="links-collun">
-              <h6>Sobre nós</h6>
-              
-              <ul>
-                <li>Sobre DigitalHaven</li>
-                <li>Responsabilidade Social</li>
-                <li>Afiliado</li>
-              </ul>
-            </div>
-  
-            <div class="links-collun">
-              <h6>Ajuda e Suporte</h6>
-              
-              <ul>
-                <li>Informações de envio</li>
-                <li>Retornos</li>
-                <li>Como pedir</li>
-                <li>Como rastrear</li>
-                <li>Tabela de tamanhos</li>
-              </ul>
-            </div>
-  
-            <div class="links-collun">
-              <h6>Atendimento</h6>
-              
-              <ul>
-                <li>Contate-nos</li>
-                <li>Pagamento</li>
-                <li>Local</li>
-                <li>Noticias</li>
-              </ul>
-            </div>
-          </section>
-  
-          <!--  -->
-          <section class="flags">
-            <h6>Nós aceitamos</h6>
-  
-            <div>
-              <img src="./img/f-MasterCard.svg" alt="mastercard-icon">
-              <img src="./img/f-Payoneer.svg" alt="payoneer-icon">
-              <img src="./img/f-eBay.svg" alt="ebay-icon">
-              <img src="./img/f-GooglePay.svg" alt="GooglePay-icon">
-              <img src="./img/f-monobank.svg" alt="monobank-icon">
-              <img src="./img/f-monobank.svg" alt="monobank-icon">
-              <img src="./img/f-Discover.svg" alt="display-icon">
-              <img src="./img/f-Western.svg" alt="western-icon">
-              <img src="./img/f-Payoneer.svg" alt="payoneer-icon">
-              <img src="./img/f-AmericanExpress.svg" alt="american-icon">
-              <img src="./img/f-Amazon.svg" alt="amazon-icon">
-              
-          </div>
-          </section>
-  
-            <div class="sign-up">
-              <h6>Se inscreva para receber as novidades</h6>
-              <div class="input-email">
-                <input type="email" placeholder="Seu E-mail">
-                <!-- <button>Inscreva-se</button> -->
-              </div>
-              <small>Clicando em INSCREVER você está aceitando nossa <a href="/">Privacidade & Politica de cookies</a> </small>
-            </div>
-          </section>
-        </div>
-  
-        <div class="footer-rows">
-          <section class="rights">
-            <p>©2024 Todos os direitos reservados para Digitalhaven</p>
-  
+      <div class="footer-rows">
+        <section class="links-section">
+          <div class="links-collun">
+            <h6>Sobre nós</h6>
+            
             <ul>
-              <li>Centro de privacidade</li>
-              <li>Privacidade & Politica de Cookies</li>
-              <li>Gerenciamento de Cookies</li>
-              <li>Termos e condições</li>
-              <li>Noticia Copyright</li>
-              <li>Imprimir</li>
+              <li>Sobre DigitalHaven</li>
+              <li>Responsabilidade Social</li>
+              <li>Afiliado</li>
+              <li>Digital Blogger</li>
             </ul>
-          </section>
-  
-          
+          </div>
+
+          <div class="links-collun">
+            <h6>Ajuda e Suporte</h6>
+            
+            <ul>
+              <li>Informações de envio</li>
+              <li>Retornos</li>
+              <li>Como pedir</li>
+              <li>Como rastrear</li>
+              <li>Tabela de tamanhos</li>
+            </ul>
+          </div>
+
+          <div class="links-collun">
+            <h6>Atendimento</h6>
+            
+            <ul>
+              <li>Contate-nos</li>
+              <li>Pagamento</li>
+              <li>Pontos de bônus</li>
+              <li>Noticias</li>
+            </ul>
+          </div>
+        </section>
+
+        
+      </div>
+
+      <div class="footer-rows">
+        <section class="rights">
+          <p>©2024 Todos os direitos reservados para DigitalHaven</p>
+
+          <ul>
+            <li>Centro de privacidade</li>
+            <li>Privacidade & Politica de Cookies</li>
+            <li>Gerenciamento de Cookies</li>
+            <li>Termos e condições</li>
+            <li>Noticia Copyright</li>
+            <li>Imprimir</li>
+          </ul>
+        </section>
+
+        <section class="flags">
+          <h6>Nós aceitamos</h6>
+
+          <div>
+            <img src="img/f-MasterCard.svg" alt="mastercard-icon">
+            <img src="img/f-Payoneer.svg" alt="payoneer-icon">
+            <img src="img/f-eBay.svg" alt="ebay-icon">
+            <img src="img/f-GooglePay.svg" alt="GooglePay-icon">
+            <img src="img/f-monobank.svg" alt="monobank-icon">
+            <img src="img/f-monobank.svg" alt="monobank-icon">
+            <img src="img/f-Discover.svg" alt="display-icon">
+            <img src="img/f-Western.svg" alt="western-icon">
+            <img src="img/f-Payoneer.svg" alt="payoneer-icon">
+            <img src="img/f-AmericanExpress.svg" alt="american-icon">
+            <img src="img/f-Amazon.svg" alt="amazon-icon">
+            
         </div>
-      </footer>
-    
+        </section>
+      </div>
+    </footer>
+    <!-- FIM FOOTER -->
+  </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="home.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./home.js"></script>
 </body>
 </html>
