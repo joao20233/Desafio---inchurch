@@ -35,6 +35,11 @@ This project was developed using the following technologies:
 
 The project is a virtual store.
 
+DEPLOY: https://joao20233.github.io/Desafio---inchurch/
+
+- login: recrutador <br>
+- senha: 12345678
+
 
 
 ## :clapper: Demonstration
