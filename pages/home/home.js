@@ -161,27 +161,27 @@ function handleConstructionSwiper() {
     },
     breakpoints: {
       1300: {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 20,
       },
       1024: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 15,
       },
       600: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 15,
       },
       500: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 15,
       },
       330: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20,
       },
       300: {
